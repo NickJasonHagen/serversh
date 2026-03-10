@@ -15,3 +15,5 @@ curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-contai
 sudo docker run -d -p 7777:8080 --gpus=all -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
 sudo apt install xrdp -y
 sudo systemctl enable --now xrdp
+sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python3-openssl
+curl https://pyenv.run | bash
