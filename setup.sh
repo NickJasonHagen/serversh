@@ -2,7 +2,7 @@
 
 sudo apt update
 sudo apt install git
-
+git clone https://github.com/nickjasonhagen/nc_shell && cd nc_shell && sh setup.sh
 sudo apt install samba
 sudo apt install docker.io
 curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg
