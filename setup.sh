@@ -1,5 +1,8 @@
 
+
 sudo apt update
+sudo apt install git
+
 sudo apt install samba
 sudo apt install docker.io
 curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg
